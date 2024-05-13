@@ -130,3 +130,7 @@ pause(length(audioData) / SampleRate);
 
 % Play the filtered audio
 sound(filtered_audioData, SampleRate);
+
+filename = 'filtered_audioData.wav'; % Choose a file name
+audiowrite(filename, filtered_audioData, SampleRate);
+
