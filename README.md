@@ -1,3 +1,5 @@
+Task1.m is the working file
+
 To carry out the task 1 functions please press run
 please double check if the .wav is located in the repository
 audioData: The audio data.
